@@ -28,3 +28,32 @@
 	y = y0 + v0y*t + (1/2)*ay*t**2
 	y = (1/2)*a*t**2 => a = 2y/t**2 => NÃO TERMNEI AQUI
 """
+
+# Massa elétron
+mE = 9.11e-31
+
+# Carga Elétron
+qE = 1.6e-19
+
+# Valor de x
+comp_placa = 0.5 
+
+x0 = 0
+vi = 3*10**6
+
+t = comp_placa / vi
+print(f'\nTempo: {t}')
+
+y = 2e-2
+
+a = 2*y/t**2
+
+print(f'\nAceleração: {a}')
+
+E = mE*a/qE
+
+print(f'\nCampo Elétrico: {E} N/C')
+
+
+
+

@@ -10,7 +10,7 @@ theta = []
 theta2 = []
 q = []
 
-for x in xrange(5,50):
+for x in range(5,50):
 	theta.append(x)
 	theta2 = (float(x)*pi)/180
 	q.append(sqrt(((4*l**2)*m*g*(sin(theta2))**2)*(tan(theta2))/k))

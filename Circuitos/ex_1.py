@@ -1,5 +1,6 @@
 """
-    Aplicação: Escreva um programa em Python para calcular a carga, a corrente e a diferença de potencial entre as placas de um capacitor sendo carregado.
+    Aplicação: Escreva um programa em Python para calcular a carga, a corrente e a diferença de potencial entre as 
+    placas de um capacitor sendo carregado.
 """
 
 from math import exp
